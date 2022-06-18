@@ -169,7 +169,7 @@ font-size: 7rem;
         }
 
 
-@media (max-width:600px){
+@media (max-width:700px){
 .search-result{
     grid-gap:10px;
 
@@ -179,7 +179,7 @@ font-size: 7rem;
 
 }
 .container .initial form{
-max-width: 400px;
+max-width: 600px;
 }
 
 .container .initial form input{
@@ -208,19 +208,19 @@ max-width: 400px;
     
     }
     .container .initial form{
-    max-width: 300px;
+    max-width: 350px;
     }
     
     .container .initial form input{
         padding: 5px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .search-button{
         margin-top: -1px;
-        font-size: 13px;
+        font-size: 12px;
         display: inline;
-        height:4rem;
+        height:3rem;
         width:18%;
         border-color: rgb(252, 244, 244);
         border-radius: 3px;
