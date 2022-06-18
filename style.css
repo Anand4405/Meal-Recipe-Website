@@ -29,7 +29,7 @@ html{
 }
 
 .section2{
-    margin-top: -20px;
+    margin-top: -30px;
 
 }
 
@@ -169,17 +169,17 @@ font-size: 7rem;
         }
 
 
-@media (max-width:768px){
+@media (max-width:600px){
 .search-result{
     grid-gap:10px;
 
 }
 .container .initial .brand{
-    font-size: 4rem;
+    font-size: 3rem;
 
 }
 .container .initial form{
-max-width: 500px;
+max-width: 400px;
 }
 
 .container .initial form input{
@@ -195,6 +195,46 @@ max-width: 500px;
     width:14%;
     border-color: rgb(252, 244, 244);
     border-radius: 3px;
-}
+}}
+
+
+@media (max-width:400px){
+    .search-result{
+        grid-gap:7px;
+    
+    }
+    .container .initial .brand{
+        font-size: 2rem;
+    
+    }
+    .container .initial form{
+    max-width: 300px;
+    }
+    
+    .container .initial form input{
+        padding: 5px;
+        font-size: 2rem;
+    }
+    
+    .search-button{
+        margin-top: -1px;
+        font-size: 13px;
+        display: inline;
+        height:4rem;
+        width:18%;
+        border-color: rgb(252, 244, 244);
+        border-radius: 3px;
+    }
+
+    form input{
+        width:80%;
+        background-color: transparent;
+        padding:10px;
+        display: inline-block;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+    }
+    
 
 }
